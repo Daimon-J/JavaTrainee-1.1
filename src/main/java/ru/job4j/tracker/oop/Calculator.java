@@ -24,6 +24,7 @@ public class Calculator {
         return sum(z) + minus(z) + divide(z) + multiply(z);
     }
 
+
     public static void main(String[] args) {
         Calculator nonStaticSumAll = new Calculator();
         nonStaticSumAll.sumAllOperation(47);

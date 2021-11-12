@@ -28,6 +28,5 @@ public class Calculator {
         Calculator nonStaticSumAll = new Calculator();
         nonStaticSumAll.sumAllOperation(47);
         System.out.println("Result: " + nonStaticSumAll);
-
     }
 }
